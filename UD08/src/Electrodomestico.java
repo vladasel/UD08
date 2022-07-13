@@ -1,5 +1,6 @@
 
 public class Electrodomestico {
+
 	private double precioBase;
 	private colores color;
 	private consumoEnergetico consumoEnerg;
@@ -63,6 +64,13 @@ public class Electrodomestico {
 
 	public void setPeso(double peso) {
 		this.peso = peso;
+	}
+
+	@Override
+	public String toString() {
+		return "Electrodomestico [precioBase=" + precioBase + ", color=" + color + ", consumoEnerg=" + consumoEnerg
+				+ ", peso=" + peso + ", COLOR=" + COLOR + ", CONSUMO=" + CONSUMO + ", PRECIO_BASE=" + PRECIO_BASE
+				+ ", PESO=" + PESO + "]";
 	}
 
 }
